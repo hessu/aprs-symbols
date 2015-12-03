@@ -35,10 +35,9 @@ individual symbols easily.  If you need to render other resolutions or make
 some other fine tuning, you can run Illustrator for free for 30 days.  The
 symbol set release even comes with a little piece of javascript which
 crunches out the 3 PNG files (primary, secondary, overlay characters) at the
-4 resolutions in a few seconds.  Inkscape can probably open the .ai file,
+4 resolutions in a few seconds. The AI file contains some basic Illustrator
+effects (blur, shadow).  Inkscape can probably open the .ai file,
 but some of the effects might not work too well, I have not tried myself. 
-The AI file contains some basic Illustrator effects (blur, shadow) which
-Inkspace may or may not support.
 
 The PNG files contain an alpha layer, which is used in many symbols for
 (partial) transparency.  Make sure that is handled when using the PNGs.
