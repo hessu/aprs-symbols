@@ -44,6 +44,19 @@ Most symbols in the PNGs contain a little bit more unused space around the
 actual symbol, than in the old symbol sets.  The amount of space also varies
 slightly too much to my taste.  I will probably work on that later on.
 
+**File naming, table identifiers:**
+
+* aprs-symbols-SIZE-0.png: Primary table
+* aprs-symbols-SIZE-1.png: Secondary table
+* aprs-symbols-SIZE-2.png: Overlay characters
+
+**File naming, sizes (follows iOS naming convention):**
+
+* aprs-symbols-24-TABLEID.png: 24x24 symbols
+* aprs-symbols-24-TABLEID@2x.png: 48x48 symbols
+* aprs-symbols-64-TABLEID.png: 64x64 symbols
+* aprs-symbols-64-TABLEID@2x.png: 128x128 symbols
+
 
 Copyright info
 -----------------
