@@ -82,6 +82,9 @@ later!
 Differences to original set
 ------------------------------
 
+The symbol set should be generally compatible with the [Updated APRS Symbol
+Set (Rev H)](http://wa8lmf.net/aprs/APRS_symbols.htm).
+
 There is one obvious difference in the new symbol set: the "ham store"
 symbol has been replaced with a more generic "store" shopping cart,
 reflecting the current \h symbol definition in the master index.  Please use
@@ -90,6 +93,23 @@ the 'H' overlay character to specify an amateur radio shop.
 To complement the symbol graphics, I've previously published a
 machine-readable (CSV/JSON/XML/YAML) APRS symbol description index, which is
 easier to integrate in applications than Bob's master list.
+
+There will be some updates to this set. If you use it, please be prepared to
+update the images from the master files.
+
+
+IMPORTANT NOTE
+-----------------
+
+APRS symbols are not transmitted over the radio, or over the APRS-IS, as
+small images.  A two-character code is transmitted, which guides the
+receiving softare to display one of the symbols installed locally at
+that end.
+
+We can not make everyone see new symbols by just adding graphics here.
+Everyone in the network need to update their symbol graphics files to see
+new ones.  So, please do not suggest adding completely new symbols to this
+file.  It just does not work like that.
 
 
 Heikki Hannikainen
