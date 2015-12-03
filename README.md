@@ -5,11 +5,11 @@ aprs.fi high-resolution symbol set
 This is a new APRS symbol graphics set, which can be used by any APRS
 applications, for free.
 
-![Primary table](png/aprs-symbols-24-0.png)
+![Primary table](png/aprs-symbols-24-0@2x.png)
 
-![Secondary table](png/aprs-symbols-24-1.png)
+![Secondary table](png/aprs-symbols-24-1@2x.png)
 
-![Overlays](png/aprs-symbols-24-2.png)
+![Overlays](png/aprs-symbols-24-2@2x.png)
 
 
 Format
