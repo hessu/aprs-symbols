@@ -5,6 +5,12 @@ aprs.fi high-resolution symbol set
 This is a new APRS symbol graphics set, which can be used by any APRS
 applications, for free.
 
+![Primary table](png/aprs-symbols-24-0.png)
+
+![Secondary table](png/aprs-symbols-24-1.png)
+
+![Overlays](png/aprs-symbols-24-2.png)
+
 
 Format
 --------
@@ -37,7 +43,6 @@ The PNG files contain an alpha layer, which is used in many symbols for
 Most symbols in the PNGs contain a little bit more unused space around the
 actual symbol, than in the old symbol sets.  The amount of space also varies
 slightly too much to my taste.  I will probably work on that later on.
-
 
 
 Copyright info
