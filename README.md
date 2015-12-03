@@ -52,10 +52,10 @@ slightly too much to my taste.  I will probably work on that later on.
 
 **File naming, sizes (follows iOS naming convention):**
 
-* aprs-symbols-24-TABLEID.png: 24x24 symbols
-* aprs-symbols-24-TABLEID@2x.png: 48x48 symbols
-* aprs-symbols-64-TABLEID.png: 64x64 symbols
-* aprs-symbols-64-TABLEID@2x.png: 128x128 symbols
+* aprs-symbols-24-TABLEID.png: 24x24 pixels/symbol
+* aprs-symbols-24-TABLEID@2x.png: 48x48 pixels/symbol
+* aprs-symbols-64-TABLEID.png: 64x64 pixels/symbol
+* aprs-symbols-64-TABLEID@2x.png: 128x128 pixels/symbol
 
 
 Copyright info
