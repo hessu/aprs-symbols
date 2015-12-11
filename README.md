@@ -6,7 +6,8 @@ This is a new APRS symbol graphics set, which can be used by any APRS
 applications, for free.  I've assembled it in an effort to make aprs.fi look
 better on modern high-resolution displays, including Retina and 4K displays. 
 It is released to the APRS community on 2015-12-03 to celebrate the release
-of the aprs.fi iPhone/iPad app.
+of the [aprs.fi iPhone/iPad
+app](https://itunes.apple.com/app/aprs.fi/id922155038?mt=8&at=1000la28&ct=git).
 
 ![Primary table](png/aprs-symbols-24-0@2x.png)
 
