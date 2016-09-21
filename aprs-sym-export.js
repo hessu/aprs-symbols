@@ -5,13 +5,14 @@
 var doc = app.activeDocument;
 var docWidth = doc.width;
 
-var fileName = doc.fullName.toString();
+/*var fileName = doc.fullName.toString();
 
 if (fileName.lastIndexOf(".") >= 0) {
   fileName = fileName.substr(0, fileName.lastIndexOf("."));
 }
+*/
 
-fileName = '/tmp/aprs-symbols';
+var fileName = '/tmp/aprs-symbols';
 
 var resolutions = [ 24, 64 ];
 var rows = 8;
@@ -31,8 +32,7 @@ for (var ab = 0; ab < arts.length && ab < 3; ab++) {
     do_export(doc, fileName, ab, res, "", 1);
     do_export(doc, fileName, ab, res, "@2x", 2);
   }
-}
-*/
+}*/
 
 aprsdroid_export();
 
@@ -80,7 +80,8 @@ function aprsdroid_export()
   $.writeln("exporting for droid: " + arts[3].artboardRect);
   arts.setActiveArtboardIndex(3);
   
-  var droid_resolutions = [16, 24, 32, 36, 48, 64];
+  // var droid_resolutions = [16, 24, 32, 36, 48, 64];
+  var droid_resolutions = [64];
   for (var k in droid_resolutions) {
     var res = droid_resolutions[k];
     $.writeln("droid res " + res);
