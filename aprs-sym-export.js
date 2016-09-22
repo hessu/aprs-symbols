@@ -34,9 +34,10 @@ for (var ab = 0; ab < arts.length && ab < 3; ab++) {
   }
 }*/
 
+//aprsdroid_layer_setup();
 aprsdroid_export();
 
-function aprsdroid_export()
+function aprsdroid_layer_setup()
 {
   // For Georg, combine all artboards in a single one and export it
 
@@ -75,7 +76,10 @@ function aprsdroid_export()
       newItem.position = newPosition;
     }
   }
+}
   
+function aprsdroid_export()
+{
   // export the temp artboard
   $.writeln("exporting for droid: " + arts[3].artboardRect);
   arts.setActiveArtboardIndex(3);
