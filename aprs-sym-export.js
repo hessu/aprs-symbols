@@ -12,9 +12,9 @@ if (fileName.lastIndexOf(".") >= 0) {
 }
 */
 
-var fileName = '/tmp/aprs-symbols';
+var fileName = '/Users/hessu/src/aprs-symbols/out/aprs-symbols';
 
-var resolutions = [ 24, 64 ];
+var resolutions = [ 24, 32, 48, 56, 64, 128, 256 ];
 var rows = 8;
 var columns = 16;
 
@@ -22,7 +22,6 @@ var arts = doc.artboards;
 $.writeln("File " + fileName + " - Artboards: " + arts.length);
 
 // Write out individual artboards
-/*
 for (var ab = 0; ab < arts.length && ab < 3; ab++) {
   arts.setActiveArtboardIndex(ab);
   
@@ -31,11 +30,12 @@ for (var ab = 0; ab < arts.length && ab < 3; ab++) {
     $.writeln("ab " + ab + " res " + res);
     do_export(doc, fileName, ab, res, "", 1);
     do_export(doc, fileName, ab, res, "@2x", 2);
+    do_export(doc, fileName, ab, res, "@3x", 3);
   }
-}*/
+}
 
 //aprsdroid_layer_setup();
-aprsdroid_export();
+//aprsdroid_export(arts);
 
 function aprsdroid_layer_setup()
 {
@@ -78,10 +78,10 @@ function aprsdroid_layer_setup()
   }
 }
   
-function aprsdroid_export()
+function aprsdroid_export(arts)
 {
   // export the temp artboard
-  $.writeln("exporting for droid: " + arts[3].artboardRect);
+  $.writeln("exporting for droid: " + arts[3].name);
   arts.setActiveArtboardIndex(3);
   
   // var droid_resolutions = [16, 24, 32, 36, 48, 64];
