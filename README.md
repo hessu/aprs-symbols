@@ -60,6 +60,11 @@ slightly too much to my taste.  I will probably work on that later on.
 * aprs-symbols-64-TABLEID.png: 64x64 pixels/symbol
 * aprs-symbols-64-TABLEID@2x.png: 128x128 pixels/symbol
 
+**File naming, by two letter:**
+
+This directory contain all icon with two letter index in the name for easy use
+in software like Qgis
+
 
 Copyright info
 -----------------
