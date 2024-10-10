@@ -168,7 +168,7 @@ Primary table
 * /P - Police
   * OH7LZB
 * /R - RV
-  * VEC-OH7LZB
+  * OH7LZB
 * /S - Space Shuttle
   * https://openclipart.org/detail/814/space-shuttle-by-johnny_automatic
   * PD: Published by the NASA, in "The Brain in Space"
